@@ -1,46 +1,26 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blocket</title>
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css'])
 </head>
-<body style="background-color: brown;">
+<body>
 
-<header>
-    <nav>
-        <div id="logo">
-            <img src="" alt="Logo"> bild
-        </div>
+<nav>
+    <div><strong>Blocket</strong></div>
 
-        <div id="notis">
-            <a href="#">Notis</a>
-        </div>
+    <div>
+        <a href="#">Notis</a>
+        <a href="#" style="margin-left:20px;">Ny annons</a>
+        <a href="#" style="margin-left:20px;">Meddelande</a>
+        <a href="#" style="margin-left:20px;">Logga in</a>
+    </div>
+</nav>
 
-        <div id="ny_annons">
-            <a href="{{ route('annons.create') }}">Ny annons</a>
-        </div>
-
-        <div id="meddelande">
-            <a href="#">Meddelande</a>
-        </div>
-
-        <div id="logga_in">
-            <a href="{{ route('login') }}">Logga in</a>
-        </div>
-    </nav>
-</header>
-
-<br>
-
-<main>
-    @yield('content')
-</main>
-
-<footer>
-</footer>
+@yield('content')
 
 </body>
 </html>

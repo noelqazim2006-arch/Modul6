@@ -4,15 +4,15 @@
 
 <div class="kategori-container">
 
-    <div class="kategori-box" style="background-image: url('{{ asset('bilder/bil_blocket.jpg') }}')">
+    <div class="kategori-box" style="background-image: url('{{ asset('bilder/bil.jpg') }}')">
         Bil
     </div>
 
-    <div class="kategori-box" style="background-image: url('{{ asset('bilder/mobler.png') }}')">
+    <div class="kategori-box" style="background-image: url('{{ asset('bilder/mobler.jpg') }}')">
         Möbler
     </div>
 
-    <div class="kategori-box" style="background-image: url('{{ asset('bilder/troja.jpg') }}')">
+    <div class="kategori-box" style="background-image: url('{{ asset('bilder/klader.jpg') }}')">
         Kläder
     </div>
 
@@ -32,8 +32,8 @@
         Hyr Bostad
     </div>
 
-    <div class="kategori-box" style="background-image: url('{{ asset('bilder/lantbruksmaskin.webp') }}')">
-        Lantbruksmaskin
+    <div class="kategori-box" style="background-image: url('{{ asset('bilder/lantbruk.jpg') }}')">
+        Lantbruk
     </div>
 
 </div>
