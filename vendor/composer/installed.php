@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/blank-react-starter-kit',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '8993f17e433d0669633b9d96556bbeeffa5e168b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -434,9 +434,9 @@
             ),
         ),
         'laravel/blank-react-starter-kit' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '8993f17e433d0669633b9d96556bbeeffa5e168b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

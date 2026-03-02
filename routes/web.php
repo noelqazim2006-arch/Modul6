@@ -4,6 +4,13 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/', function () {
-    return Inertia::render('welcome');
+    return view('home');
 })->name('home');
 
+Route::get('/ny-annons', function () {
+    return "Ny annons sida";
+})->name('annons.create');
+
+Route::get('/login', function () {
+    return "Login sida";
+})->name('login');
